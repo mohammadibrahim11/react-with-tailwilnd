@@ -12,7 +12,7 @@ const NavBar = () => {
         {id:4,path:'./#About',name:'About'}
     ]
     return (
-        <div className=''>
+        <div className='bg-cyan-800'>
             <div  onClick={()=> setToggle(!toggle)} className="h-6 w-6 text-blue-500 md:hidden">
               { 
               toggle ? <XMarkIcon/>:<Bars3Icon/>
